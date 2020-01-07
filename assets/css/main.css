@@ -1,0 +1,92 @@
+.bodybg{
+  background-image: url("/images/resize2.jpeg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*box-sizing: border-box;*/
+  height: 1000px;
+  width: 100%;
+  background-attachment: scroll;
+  z-index: 4;
+  /*border : 1px solid black;*/
+  /*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+  /*box-shadow: 5px 10px 8px 5px #888888;*/
+  box-shadow: inset;
+  /*padding : 50px;*/
+  /*box-shadow: 0px 4px 3px 0px red; */
+
+}
+.navbar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*overflow: hidden;*/
+  background-color:#EFEFEF;
+  border: none;
+  /*margin-bottom:40px;*/
+  z-index: 5;
+   box-shadow: 0px 5px 18px 2px #888888;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  font-size: 15px;
+  font-family: indie flower;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus{
+  color: red;
+}
+
+.dropdown-menu{
+    color: black;
+  font-size: 15px;
+  font-family: indie flower;
+}
+
+.dropdown-menu a:hover{
+  color: #FF0000;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #FF0000;
+}
+
+
+
+.calendar{
+  background-color: #EBE8E8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  background-attachment: scroll;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  /*margin-top:10px;*/
+  z-index: 1;
+}
+
+
+.intro_text{
+  align-self: center;
+  height: 1000px;
+  width: 100%;
+}
+
+
+.disp
+{
+  background-color : rgb(216, 195, 195);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding : 100px 200px;
+  /* width: 500px; */
+  /* height: 500px; */
+}

@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>registration page</title>
+  <link rel="stylesheet" type="text/css" href="/css/application.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<body>
+  <div class="title_app">
+    <h1>Application Form</h1>
+  </div>
+  <div class="app_wallpaper">
+
+  </div>
+  <div class="app_content">
+        <div class="left_side">
+          <h2 class="content_header">Application Details</h4>
+          <form class="form_left" action="/application" method="POST">
+              <br>
+              <input type="text" list="Teacher_name" name="to" placeholder="To" style="font-family: Lora">
+              <datalist id="Teacher_name" style="font-family: Lora"; ><!-- here i used datalist -->
+              <option value="T1">
+              <option value="T2">
+              <option value="T3">
+              <option value="T4">
+              <option value="T5">
+              <option value="T6">
+              <option value="T7">  
+              </datalist>
+              <br><br>
+              <br>
+              <input type="text" name="from" style="font-family: Lora" required="Please fill in this field!!" placeholder="From"><br><br>
+              <br>
+              <input type="text" name="applicant" required="Please fill in this field!!" placeholder="Applicant" style="font-family: Lora"><br><br>
+              <br>
+              <input type="text" name="subject" required="Please fill in this field!!" placeholder="Subject">
+              <br><br>
+              <br>
+              <input type="text" name="purpose" required="Please fill in this field!!" placeholder="Purpose"><br><br>
+
+        </div>
+        <div class="right_side">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            <!-- <form class="form_right" style="margin-top: 65px"> -->
+              <!-- Date:<br> -->
+              <!-- <input type="date" name="date_of_res" min="1996-01-01" max="2002-01-01" placeholder="Date" required=""><br><br> -->
+              Time:<br>
+              <input type="text" name="timing" required="Please fill in this field!!" placeholder="Time"><br><br>
+              <br>
+              <!-- <input type="number" name="duration"  min="1" max="5" required="Please fill in this field!!" placeholder="Duration"><br><br> -->
+              <br>
+              <textarea name="description" style="width: 80%;height: 110px ;font-family:Lora" placeholder="Description"></textarea><br>
+        </div>
+  </div>
+  <div class="submit_button">
+    <button type="submit">Submit</button>
+    <!-- <a href="#" class="buttons" style="margin-left: 20%; margin-top: 25px; float: left;">Submit</a> -->
+    <!-- <a href="#" class="buttons" style="margin-right: 20%; margin-top: 25px; float: right;">Cancel</a> -->
+  </div>
+</form>
+
+</body>
+</html>

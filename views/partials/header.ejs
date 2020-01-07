@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+                            <div class="container-fluid">
+                                  <div class="navbar-header">
+                                               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                               <span class="icon-bar"></span>                        
+                                                 </button>
+                                                <a style="color: black;font-family: 'Slabo 27px', serif; font-size: 29px;" class="navbar-brand" href="/">Procuratio</a>
+                                  </div>
+
+                                   <div class="collapse navbar-collapse" id="myNavbar">
+                                           <ul class="nav navbar-nav">
+                                               <li><a href="/">Home</a></li>
+                                               <li><a href="/application">Application</a></li>
+                                               <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Help
+                                               <span class="caret"></span></a>
+                                              <ul class="dropdown-menu">
+                                                  <li><a href="#">FAQs</a></li>
+                                                  <li><a href="#">Contact Us</a></li>
+                                              </ul>
+                                              </li> -->
+                                            </ul>
+                                            <ul class="nav navbar-nav navbar-right">
+                                             <% if(currentUser){%>
+                                                   <li class="text right" id="navUser" style="background-color:gray;">
+                                                   <a href="#">Welcome <%=currentUser.username%></a>
+                                                    </li>
+                                                   <li class="text right">
+                                                                  <a href="/logout">Logout</a>
+                                                   </li>
+                                                   <% } else { %>  
+                                                   <li class="text right">
+                                                   <a href="/login">Login</a>
+                                                   </li>
+                                                   <li class="text right">
+                                                   <a href="/register">Register</a>
+                                                    </li>
+                                            <% } %>
+                                            </ul>
+                      
+                                    </div> 
+                              </div>
+                          </div>
+                  </nav>
