@@ -4,8 +4,7 @@ It is an event manager project developed during the college hackathon.It is made
 
 After cloning this code Kindly run the command "npm install" to install the node modules Then run the command "npm start" to start the local server.
 
-Visit the blog at
-http://edgistifyblogpost.herokuapp.com/
+Visit the blog at [Procuratio](http://edgistifyblogpost.herokuapp.com/)
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
