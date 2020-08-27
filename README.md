@@ -2,7 +2,7 @@
 # Procuratio
 It is an event manager project developed during the college hackathon.It is made to keep records of the permissions of lecture hall,auditorium etc and also to take permissions from the respective incharges.It has an email sending functionality to take permission from the respective incharge online for which sendgrid is used.
 
-Check it out [here](http://edgistifyblogpost.herokuapp.com/) 😉
+Check it out [here](#) 😉
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
